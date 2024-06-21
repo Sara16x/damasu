@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(function() {
             console.log('Nascondi avviso dopo 5 secondi');
             avviso.style.display = 'none';
-        }, 10000);
+        }, 12000);
     }
 
     // Avvia la funzione dopo 15 secondi

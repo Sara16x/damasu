@@ -1,0 +1,397 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "dystopian", sans-serif;
+}
+
+video {
+    width: 100vw;
+    height: auto;
+}
+
+
+.container.box {
+    height: 33vh;
+}
+
+
+/* Stile per il dropdown del menu */
+.dropdown-menu {
+    background-color: #f8f9fa;
+    /* Cambia il colore di sfondo come desiderato */
+    border: none;
+    border-radius: 0%;
+}
+
+.dropdown-menu a {
+    color: #212529;
+    /* Testo nero di base */
+}
+
+.dropdown-menu a:hover {
+    background-color: #e9ecef;
+    /* Cambia il colore di sfondo al passaggio */
+}
+
+
+/*img con sticker*/
+.img-container {
+    position: relative;
+    height: 75vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; 
+}
+
+.sticker {
+    position: absolute;
+    top: 80vh; 
+    right: 5vh; 
+    width: 20vh; 
+    height: auto;
+    animation: rotate 5s linear infinite; 
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#avviso {
+    display: none; 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+#avviso img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    max-height: 90vh;
+}
+
+.stroke {
+    border-top: 0.05rem solid #212529;
+    border-bottom: 0.05rem solid #212529;
+}
+
+.logo {
+    max-height: 3vh;
+}
+
+footer a {
+    color: #212529;
+}
+
+footer a:hover,
+.navbar,
+.nav-link:hover,
+.form-control,
+.h3red,
+.h4red {
+    color: red;
+}
+
+.card {
+    border: 0.125rem solid #212529;
+    border-radius: 0%;
+}
+
+.container.box2 {
+    background-color: #fff;
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 0%;
+}
+
+.btn {
+    border-radius: 0%;
+    box-shadow: 0.3rem 0.3rem 0.5rem #dedede;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #212529;
+}
+
+/*Stili di testo*/
+
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.3rem;
+    line-height: 90%;
+}
+
+h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 90%;
+}
+
+
+h3 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.3rem;
+    line-height: 90%;
+}
+
+
+marquee {
+    height: 15vh;
+    direction: left;
+}
+
+h4,
+marquee {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 105%;
+}
+
+.n {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75rem;
+    line-height: 110%;
+
+}
+
+h5, .h5thin  {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.h5thin {
+    font-weight: 400;
+}
+
+h6,
+.h6 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+p,
+.p,
+.p2 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 110%;
+}
+
+.pred {
+    color: red;
+}
+
+
+.p.bold {
+    font-weight: 700;
+}
+
+.subtitle {
+    border-bottom: 1px solid #212529;
+    padding-bottom: 1rem;
+}
+
+.nextprev a {
+    color: #212529;
+}
+
+.nextprev a:hover {
+    color: red;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .sticker {
+        position: absolute;
+        top: 85vh; 
+        right: 10vh; 
+        width: 22vh; 
+        height: auto;
+        animation: rotate 5s linear infinite; 
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .img-container {
+        height: auto;
+    }
+
+    .sticker {
+        position: absolute;
+        top: 100vh; 
+        right: 15vh; 
+        width: 25vh; 
+        height: auto;
+        animation: rotate 5s linear infinite; 
+    }
+
+    h3,
+    marquee {
+        font-size: 4rem;
+    }
+
+
+    h4,
+    marquee {
+        font-size: 3rem;
+    }
+
+    .n {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.75rem;
+        line-height: 105%;
+    
+    }
+
+    .p2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .stroke {
+        border-top: 0.2rem solid #212529;
+        border-bottom: 0.2rem solid #212529;
+    }
+
+    .container.box {
+        height: 33vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+    .sticker {
+        position: absolute;
+        top: 120vh; 
+        right: 15vh; 
+        width: 30vh; 
+        height: auto;
+        animation: rotate 5s linear infinite; 
+    }
+
+    .container.box {
+        height: 35vh;
+    }
+
+    .carousel {
+        position: relative;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 7%;
+    }
+
+    .carousel-control-prev {
+        left: -7%;
+    }
+
+    .carousel-control-next {
+        right: -7%;
+    }
+
+
+    h1 {
+        font-size: 19.5rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    h3,
+    .h3red
+    {
+        font-size: 5.5rem;
+    }
+
+
+    h4,
+    .h4red, marquee {
+        font-size: 4.75rem;
+    }
+
+    .n {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        line-height: 113%;
+    
+    }
+
+
+    h5, .h5thin   {
+        font-size: 3.5rem;
+    }
+
+    h6,
+    .h6 {
+        font-size: 1.5rem;
+    }
+
+
+    p,
+    .p {
+        font-size: 1.5rem;
+    }
+
+    .p2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+
+    }
+
+    .p.bold {
+        font-weight: 700;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

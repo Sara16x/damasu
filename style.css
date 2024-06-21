@@ -314,7 +314,7 @@ p,
     }
 
     .container.box {
-        height: 35vh;
+        height: 38vh;
     }
 
     .carousel {
@@ -394,7 +394,7 @@ p,
 @media (min-width: 1200px) {
 
     .container.box {
-        height: 44vh;
+        height: 40vh;
     }
 }
 

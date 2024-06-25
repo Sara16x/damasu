@@ -171,7 +171,7 @@ marquee {
     direction: left;
 }
 
-h4,
+h4, .h4
 marquee {
     font-weight: 700;
     font-style: normal;
@@ -272,7 +272,7 @@ p,
     }
 
 
-    h4,
+    h4,.h4
     marquee {
         font-size: 3rem;
     }
@@ -350,9 +350,9 @@ p,
     }
 
 
-    h4,
+    h4,.h4,
     .h4red, marquee {
-        font-size: 4.5rem;
+        font-size: 4.75rem;
     }
 
     .n {
@@ -376,7 +376,7 @@ p,
 
     p,
     .p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .p2 {
@@ -391,12 +391,7 @@ p,
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-    .container.box {
-        height: 40vh;
-    }
-}
+@media (min-width: 1200px) {}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}

@@ -13,7 +13,7 @@ video {
 
 
 .container.box {
-    height: 33vh;
+    height: 27.5vh;
 }
 
 
@@ -248,6 +248,10 @@ p,
         height: auto;
         animation: rotate 5s linear infinite; 
     }
+
+    .container.box {
+        height: 25vh;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -296,7 +300,7 @@ p,
     }
 
     .container.box {
-        height: 33vh;
+        height: 35vh;
     }
 }
 
@@ -391,7 +395,11 @@ p,
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .container.box {
+        height: 40vh;
+    }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}

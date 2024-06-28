@@ -13,7 +13,7 @@ video {
 
 
 .container.box {
-    height: 27.5vh;
+    height: 32vh;
 }
 
 
@@ -310,33 +310,22 @@ p,
 
     .sticker {
         position: absolute;
-        top: 120vh; 
+        top: 75vh; 
         right: 15vh; 
-        width: 30vh; 
+        width: 20vh; 
         height: auto;
         animation: rotate 5s linear infinite; 
     }
 
     .container.box {
-        height: 38vh;
+        height: 28vh;
     }
 
     .carousel {
         position: relative;
     }
 
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 7%;
-    }
-
-    .carousel-control-prev {
-        left: -7%;
-    }
-
-    .carousel-control-next {
-        right: -7%;
-    }
+    
 
 
     h1 {
@@ -397,8 +386,9 @@ p,
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .container.box {
-        height: 40vh;
+        height: 25vh;
     }
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
